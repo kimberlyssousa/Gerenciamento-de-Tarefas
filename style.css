@@ -1,0 +1,115 @@
+html {
+    background-color: #181d1a;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #181d1a;
+    background-color: #181d1a;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #008000;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#tarefa {
+    flex: 2;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #008000;
+}
+
+#data {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #008000;
+    cursor: pointer;
+}
+
+#hora {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #008000;
+    cursor: pointer;
+}
+
+.hora {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: green;
+    font-size: 14px;
+    border: 1px solid #008000;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #008000;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid #008000;
+}
+
+button:hover {
+    background-color: #006600;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+li.done {
+    background-color: #f5f5f5;
+    text-decoration: line-through;
+    color: #666;
+}
+
+li .acoes {
+    display: flex;
+    align-items: center;
+}
+
+li .acoes button {
+    margin-right: 10px;
+    background-color: #006600;
+}
+
+li .acoes button:hover {
+    background-color: red;
+}
+
+li .data {
+    color: #008000;
+}

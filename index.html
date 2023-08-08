@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Tarefas</h1>
+        <div class="form">
+            <input type="text" id="tarefa" placeholder="Adicionar Tarefa">
+            <input type="date" id="data" placeholder="DD/MM/AAAA">
+            <input type="time" id="hora" required>
+
+            <button onclick="adicionarTarefa()">Adicionar</button>
+        </div>
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
